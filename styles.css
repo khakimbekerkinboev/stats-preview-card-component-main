@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+=============
+Variables
+=============
+*/
+:root {
+  --very-dark-blue: hsl(233, 47%, 7%);
+  --dark-desaturated-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --slightly-transparent-white-1: hsla(0, 0%, 100%, 0.75);
+  --slightly-transparent-white-1: hsla(0, 0%, 100%, 0.6);
+}
+
+/* 
+=============
+Hero
+=============
+*/
+.hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--very-dark-blue);
+}
+.banner {
+  width: 90%;
+  max-width: 375px;
+  display: flex;
+  flex-direction: column;
+  background: var(--dark-desaturated-blue);
+}
+
+.banner-img-container {
+  background: var(--soft-violet);
+  width: 100%;
+  height: 100%;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
